@@ -1,0 +1,1 @@
+ALTER TABLE urls ADD COLUMN expiration_date DATE NOT NULL;

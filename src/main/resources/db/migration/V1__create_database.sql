@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS urls;
+
+CREATE TABLE IF NOT EXISTS urls (
+    id BIGINT auto_increment PRIMARY KEY,
+    raw_url VARCHAR(255) NOT NULL,
+    shortened_url VARCHAR(30) NOT NULL UNIQUE
+);
